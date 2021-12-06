@@ -7,8 +7,34 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+   
 
-    <div id="titanic"></div>
+    <div class="container">
+      <h1>Titanic Visualization</h1>
+      
+      <div class="visualizer">
+
+        <div id="titanic"></div>
+
+        <div class="button-section">
+          <h2>Sort By:</h2>
+          <div id='buttons'> 
+            <button class="sort-by-age">Age</button>
+            <button class="sort-by-fare">Fare</button>
+            <button class="sort-by-embarked">Embarked</button>
+            <button class="sort-by-survived">Survived</button>
+            <button class="sort-by-gender">Gender</button>
+            <button class="sort-clear">Clear Sort</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div id='passenger-details'></div>
+
+      <div id="titanic-embarked"></div>
+
+    </div>
 
     <script src="script.js" type="module"></script>
   </body>

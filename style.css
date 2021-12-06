@@ -1,1 +1,46 @@
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(216, 217, 238, 0.411);
+  border-radius: 1em;
+  margin: 40px;
+}
+
+
+
+body {
+  background-color: rgb(22, 48, 70);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#titanic-embarked {
+  display: flex;
+  align-items: flex-end;
+  width: 200px;
+  height: 300px;
+}
+
+#titanic {
+  display: grid;
+  grid-template-columns: repeat(33, 20px);
+  grid-gap: 5px;
+  border: 1px solid;
+  border-radius: 1em;
+  padding: 8px;
+  background-color: rgba(216, 217, 238, 0.644);
+}
+
+.visualizer {
+  display: flex;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+;
